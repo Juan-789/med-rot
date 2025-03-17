@@ -36,7 +36,7 @@ export default function () {
       className="absolute top-0 left-0 w-full"
       style={{
         top: '-175px', // Adjust Y-coordinate
-        left: '-350px', // Adjust X-coordinate
+        left: '-100px', // Adjust X-coordinate
         width: '250px', // Adjust size as needed
       }}
     />
@@ -59,8 +59,9 @@ export default function () {
         className="absolute"
         style={{
           top: '150px',
-          left: '300px',
-          width: '300px',
+          left: '650px',
+          maxWidth: '300px',
+          maxHeight: '100%'
         }}
       />
 
@@ -70,9 +71,10 @@ export default function () {
         alt="Dancing Cat" 
         className="absolute"
         style={{
-          top: '250px',
-          left: '500px',
-          width: '200px',
+          top: '-150px',
+          left: '850px',
+          maxWidth: '200px',
+          maxHeight: '100%',
         }}
       />
 
@@ -94,7 +96,7 @@ export default function () {
         alt="Hawk Tuah" 
         className="absolute"
         style={{
-          top: '400px',
+          top: '300px',
           left: '-50px',
           width: '250px',
         }}
@@ -106,9 +108,10 @@ export default function () {
         alt="Skibidi Toilet" 
         className="absolute"
         style={{
-          top: '500px',
-          left: '200px',
-          width: '300px',
+          top: '250px',
+          left: '900px',
+          maxWidth: '300px',
+          maxHeight: '100%', 
         }}
       />
 
@@ -118,8 +121,8 @@ export default function () {
         alt="Subway" 
         className="absolute"
         style={{
-          top: '-100px',
-          left: '-400px',
+          top: '-200px',
+          left: '-425px',
           width: '350px',
         }}
       />
@@ -130,9 +133,10 @@ export default function () {
         alt="Brian Family Guy" 
         className="absolute"
         style={{
-          top: '600px',
+          top: '280px',
           left: '400px',
-          width: '250px',
+          maxWidth: '200px',
+          maxHeight: '100%',
         }}
       />
     <Card className="p-8">
