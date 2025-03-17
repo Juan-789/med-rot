@@ -108,7 +108,7 @@ export default function () {
         alt="Skibidi Toilet" 
         className="absolute"
         style={{
-          top: '250px',
+          top: '240px',
           left: '900px',
           maxWidth: '300px',
           maxHeight: '100%', 
